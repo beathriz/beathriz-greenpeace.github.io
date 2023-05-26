@@ -1,7 +1,7 @@
 # beathriz-greenpeace.github.io
 Atividades técnicas
 
-Exercício 1
+Exercício 1 - 
 Nesse primeiro exercício, vamos importar e transformar uma tabela do conjunto de dados públicos do BigQuery. Antes de partir para o código, você precisa ativá-los dentro da sua conta do BigQuery seguindo as instruções desse guia. Esse passo é importante para 1) liberar os datasets no BigQuery; e 2) conectar a eles usando o R usando o pacote bigrquery, ou no Python usando python-bigquery se aplicável. Fique tranquilo(a), pois usar esses dados não gera cobrança na sua conta.
 Nos conjuntos de dados públicos do BigQuery, dentro do dataset fda_food, faça a importação da tabela food_events. Essa tabela reúne mais de 90 mil observações com reações adversas a alimentos. Mostre que a tabela foi importada com sucesso.
 Transforme a tabela para descobrir as informações abaixo. Em cada uma das perguntas, deixe visível o dataset resultante da transformação necessária.
@@ -9,7 +9,7 @@ Qual o tipo de reação mais reportado na tabela? Lembre-se que uma linha pode t
 Qual o nome da indústria que tem mais mortes reportadas?
 Quais as 3 principais reações adversas de pessoas entre 18-25 anos na indústria de cosméticos?
 
-Exercício 2
+Exercício 2 - 
 A equipe de relacionamento com doador vai enviar um novo “mimo” para os nossos apoiadores! Vamos trabalhar com os dados de doadores para construir uma estrutura que permita simplificar o envio desses “mimos”.
 Sua tarefa é:
 Usar a API do Random User Generator para gerar uma lista de 1.000 usuários brasileiros
@@ -24,7 +24,7 @@ Cada pasta deve ter dois arquivos um com todos os homens com Pokémons daquele t
 Por fim, crie um Google Sheets com um resumo indicando:
 O número de pessoas por região do Brasil (Norte, Sul, Sudeste, Nordeste, Centro-Oeste) e o elemento de seus Pokemons
 
-Exercício 3
+Exercício 3 - 
 O Greenpeace Brasil utiliza um data warehouse baseado em Redshift para reunir nossos bancos de dados. Frequentemente, precisamos revisar e alterar as permissões dos datasets existentes. Partindo da documentação do Redshift, descreva qual o código em SQL seria utilizado para esses diferentes cenários:
 Cada analista da equipe de Inteligência de Dados tem um perfil próprio e temos uma conta genérica para conseguir lidar com bases de dados coletivas. No cenário em que o usuário gp_user gostaria de ter acesso para a tabela press_data, qual seria o código para disponibilizá-la?
 Em algumas vezes, mesmo após dar permissão uma vez, a tabela é reescrita com o parâmetro drop e perde as permissões. Qual o código que deve ser feito para que a tabela sempre herde os privilégios de forma padrão?
